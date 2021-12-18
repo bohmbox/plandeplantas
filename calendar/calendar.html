@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./calendar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="app--header">
+            <a href="/html/">Inicio</a> |
+            <a href="/css/"> Mi huerto</a> |
+            <a href="/css/"> Mis plantas</a> |
+            <a href="/python/">Mis redes</a>
+        </nav>
+    </header>
+    <h1>Inicio</h1>
+    <p class="app__description">En la sección calendar debería de haber una forma de visualizar el huerto en terminos de
+        la temporada.</p>
+    <p>Es un calendario ó una agenda.</p>
+    <!-- Intento de crear un calendario con html/css/js -->
+    <div id="calendar">
+        <div id="calendar_header">
+            <i class="icon-chevron-left"></i>
+            <h1></h1>
+            <i class="icon-chevron-right"></i>
+        </div>
+        <div id="calendar_weekdays"></div>
+        <div id="calendar_content"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p id="demo"></p>
+    <button>Sincroniza tus dispositivos</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./calendar.js"></script>
+    <!--     <script type="application/javascript" src="./calendar.js"></script> -->
+</body>
+
+</html>
